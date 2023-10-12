@@ -31,5 +31,12 @@ public class Main {
             }
             j++;
         }
+
+        // Do While loop
+        boolean isAdult = true;
+        do {
+            System.out.println("Hello");
+            isAdult = false;
+        } while(isAdult);
     }
 }
